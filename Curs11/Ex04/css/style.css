@@ -18,3 +18,14 @@
 }
 /* can't touch this 🔨 */
 
+.grid-container {
+  display:grid;
+  grid-template-columns: repeat(3, minmax(250px, 1fr));
+  grid-template-rows: 200px 200px 200px 200px;
+  gap: 16px;
+}
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: ;
+  }
+}

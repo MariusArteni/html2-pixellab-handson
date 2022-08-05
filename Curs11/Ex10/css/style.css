@@ -26,4 +26,12 @@
 }
 /* can't touch this 🔨 */
 
+.grid-container {
+  display: grid;
+  grid-template-columns: 120px 1fr 400px 2fr 350px 10px;
+}
 
+.grid-item-1 {
+  justify-self: end;
+  align-self: end;
+}
